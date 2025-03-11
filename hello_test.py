@@ -4,11 +4,8 @@ import io;
 def test_hello(capsys):
     hello.main() 
     captured = capsys.readouterr()
-
     expected_output = "Hello\nWorld!"
     expected_output = expected_output.replace('\r\n', '\n').strip()
-    actual_output = captured.out
-    actual_output = '\n'.join(line.strip() for line in actual_output.splitlines())
-    actual_output = actual_output.replace('\r\n', '\n').strip()
+    output = '\n'.join(line.strip() for line in captured.out.splitlines()).replace('\r\n', '\n').strip()
 
-    assert actual_output == expected_output
+    assert  output == expected_output
