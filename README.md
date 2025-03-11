@@ -9,7 +9,9 @@
 `print("Mit der Zeichenkombination \nkann ein Zeilenumbruch erzeugt werden")`
 
 ## Aufgabe
-Ändere das Python Skript in der Datei *hello.py*, so dass bei Ausführung der Text *Hello 
-World!* ausgegeben wird.  
+Ändere das Python Skript in der Datei *hello.py*, so dass bei Ausführung der Text  
+*Hello 
+World!* 
+inklusive Zeilenubruch ausgegeben wird.  
 
 **WICHTIG:** Ändere **NICHT** die anderen Dateien
